@@ -1,0 +1,100 @@
+{
+  "method": "AI-assisted, code-informed DOM exploration using React and jsdom, not a manual or blind browser session. Source was viewed before this session.",
+  "capturedAt": "2026-11-08T13:21:44.546Z",
+  "rows": [
+    {
+      "action": "Mount the component",
+      "expected": [
+        "Count: 0"
+      ],
+      "actual": [
+        "Count: 0"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Increment once from 0",
+      "expected": [
+        "Count: 1"
+      ],
+      "actual": [
+        "Count: 1"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Increment twice more from 1",
+      "expected": [
+        "Count: 2",
+        "Count: 3"
+      ],
+      "actual": [
+        "Count: 2",
+        "Count: 3"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Reset from 3",
+      "expected": [
+        "Count: 0"
+      ],
+      "actual": [
+        "Count: 0"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Decrement three times from 0",
+      "expected": [
+        "Count: -1",
+        "Count: -2",
+        "Count: -3"
+      ],
+      "actual": [
+        "Count: -1",
+        "Count: -2",
+        "Count: -3"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Reset from -3",
+      "expected": [
+        "Count: 0"
+      ],
+      "actual": [
+        "Count: 0"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Reset again at 0",
+      "expected": [
+        "Count: 0"
+      ],
+      "actual": [
+        "Count: 0"
+      ],
+      "result": "Pass"
+    },
+    {
+      "action": "Increment, Increment, Decrement, Reset, Increment",
+      "expected": [
+        "Count: 1",
+        "Count: 2",
+        "Count: 1",
+        "Count: 0",
+        "Count: 1"
+      ],
+      "actual": [
+        "Count: 1",
+        "Count: 2",
+        "Count: 1",
+        "Count: 0",
+        "Count: 1"
+      ],
+      "result": "Pass"
+    }
+  ]
+}

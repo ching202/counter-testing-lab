@@ -1,0 +1,6 @@
+$ npm run lint
+
+npm notice run counter-app@0.0.0 lint
+npm notice run eslint .
+
+Exit code: 0

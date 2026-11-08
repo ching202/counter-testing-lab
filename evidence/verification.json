@@ -1,0 +1,23 @@
+{
+  "capturedAt": "2026-11-08T13:32:11.278Z",
+  "node": "v24.22.1",
+  "platform": "win32",
+  "results": [
+    {
+      "command": "npm test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm test -- --coverage",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm run lint",
+      "exitCode": 0
+    }
+  ]
+}

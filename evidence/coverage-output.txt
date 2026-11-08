@@ -1,0 +1,17 @@
+$ npm test -- --coverage
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ App.tsx  |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+npm notice run counter-app@0.0.0 test
+npm notice run jest --runInBand --coverage
+Test Suites: 1 passed, 1 total
+Tests:       8 passed, 8 total
+Snapshots:   0 total
+Time:        15.094 s
+Ran all test suites.
+
+Exit code: 0
